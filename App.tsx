@@ -1,10 +1,11 @@
 import { StyleSheet, Text, View } from 'react-native';
-import React from 'react';
+import Config from 'react-native-config';
 
 const App = () => {
   return (
     <View style={styles.container}>
-      <Text>App</Text>
+      <Text>App Environment: {Config.ENV}</Text>
+      <Text>API URL: {Config.API_URL}</Text>
     </View>
   );
 };
