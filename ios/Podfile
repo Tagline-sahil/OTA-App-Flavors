@@ -17,6 +17,9 @@ end
 def target_pods
 
   config = use_native_modules!
+  use_frameworks! :linkage => :static
+  $RNFirebaseAsStaticFramework = true
+  # $FirebaseSDKVersion = '12.7.0'
 
   use_react_native!(
     :path => config[:reactNativePath],
@@ -24,6 +27,7 @@ def target_pods
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 end
+
 target 'OTA_App_Flavor' do
   target_pods
 end
