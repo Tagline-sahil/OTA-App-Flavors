@@ -7,38 +7,116 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043314482F062D4000FBD2EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		0433144C2F062D4000FBD2EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		0433144D2F062D4000FBD2EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		0433144E2F062D4000FBD2EE /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		0433145A2F062DD100FBD2EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		0433145E2F062DD100FBD2EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		0433145F2F062DD100FBD2EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		043314602F062DD100FBD2EE /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		0433146C2F064CB000FBD2EE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0433146B2F064CB000FBD2EE /* GoogleService-Info.plist */; };
+		043314702F064D2200FBD2EE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0433146F2F064D2200FBD2EE /* GoogleService-Info.plist */; };
+		043314722F064D7C00FBD2EE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 043314712F064D7C00FBD2EE /* GoogleService-Info.plist */; };
 		0C80B921A6F3F58F76C31292 /* libPods-OTA_App_Flavor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-OTA_App_Flavor.a */; };
 		0D2C0FFE4D097D5DB8D3D7D2 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		4BF981891D9A00DF94068F4E /* libPods-OTA_App_Flavor-Stage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB872571B9B5C282E73E9F64 /* libPods-OTA_App_Flavor-Stage.a */; };
+		61C29D1D51C596FE8D399010 /* libPods-OTA_App_Flavor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-OTA_App_Flavor.a */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8E1604F1C4EB3A72CA0E8922 /* libPods-OTA_App_Flavor-Dev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F9DEA2BDB3176CAD2504FA /* libPods-OTA_App_Flavor-Dev.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		043314552F062D4000FBD2EE /* OTA_App_Flavor-Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OTA_App_Flavor-Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		043314562F062D4000FBD2EE /* OTA_App_Flavor Dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "OTA_App_Flavor Dev-Info.plist"; path = "/Users/mac/Documents/ProjectsS/OTA_App_Flavor/ios/OTA_App_Flavor Dev-Info.plist"; sourceTree = "<absolute>"; };
+		043314672F062DD100FBD2EE /* OTA_App_Flavor-Stage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OTA_App_Flavor-Stage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		043314682F062DD100FBD2EE /* OTA_App_Flavor Stage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "OTA_App_Flavor Stage-Info.plist"; path = "/Users/mac/Documents/ProjectsS/OTA_App_Flavor/ios/OTA_App_Flavor Stage-Info.plist"; sourceTree = "<absolute>"; };
+		0433146B2F064CB000FBD2EE /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0433146F2F064D2200FBD2EE /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		043314712F064D7C00FBD2EE /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* OTA_App_Flavor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTA_App_Flavor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = OTA_App_Flavor/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = OTA_App_Flavor/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = OTA_App_Flavor/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		3B4392A12AC88292D35C810B /* Pods-OTA_App_Flavor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTA_App_Flavor.debug.xcconfig"; path = "Target Support Files/Pods-OTA_App_Flavor/Pods-OTA_App_Flavor.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-OTA_App_Flavor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTA_App_Flavor.release.xcconfig"; path = "Target Support Files/Pods-OTA_App_Flavor/Pods-OTA_App_Flavor.release.xcconfig"; sourceTree = "<group>"; };
+		1D1C0A3AE1CF0097C01BC18D /* Pods-OTA_App_Flavor-Dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTA_App_Flavor-Dev.debug.xcconfig"; path = "Target Support Files/Pods-OTA_App_Flavor-Dev/Pods-OTA_App_Flavor-Dev.debug.xcconfig"; sourceTree = "<group>"; };
+		5BD1A07296DAEC16951BA295 /* Pods-OTA_App_Flavor-Stage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTA_App_Flavor-Stage.release.xcconfig"; path = "Target Support Files/Pods-OTA_App_Flavor-Stage/Pods-OTA_App_Flavor-Stage.release.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-OTA_App_Flavor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OTA_App_Flavor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B2EF6F28D0BCB8E65771F36 /* Pods-OTA_App_Flavor-Dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTA_App_Flavor-Dev.release.xcconfig"; path = "Target Support Files/Pods-OTA_App_Flavor-Dev/Pods-OTA_App_Flavor-Dev.release.xcconfig"; sourceTree = "<group>"; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = OTA_App_Flavor/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = OTA_App_Flavor/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB872571B9B5C282E73E9F64 /* libPods-OTA_App_Flavor-Stage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OTA_App_Flavor-Stage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C858928068F1FA7EAEEF83A1 /* Pods-OTA_App_Flavor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTA_App_Flavor.debug.xcconfig"; path = "Target Support Files/Pods-OTA_App_Flavor/Pods-OTA_App_Flavor.debug.xcconfig"; sourceTree = "<group>"; };
+		D6F9DEA2BDB3176CAD2504FA /* libPods-OTA_App_Flavor-Dev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OTA_App_Flavor-Dev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FB6FC3C77371FABE72D40B79 /* Pods-OTA_App_Flavor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTA_App_Flavor.release.xcconfig"; path = "Target Support Files/Pods-OTA_App_Flavor/Pods-OTA_App_Flavor.release.xcconfig"; sourceTree = "<group>"; };
+		FF4E1EBE7839B7676947FBC1 /* Pods-OTA_App_Flavor-Stage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTA_App_Flavor-Stage.debug.xcconfig"; path = "Target Support Files/Pods-OTA_App_Flavor-Stage/Pods-OTA_App_Flavor-Stage.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		043314492F062D4000FBD2EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1604F1C4EB3A72CA0E8922 /* libPods-OTA_App_Flavor-Dev.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0433145B2F062DD100FBD2EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF981891D9A00DF94068F4E /* libPods-OTA_App_Flavor-Stage.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0C80B921A6F3F58F76C31292 /* libPods-OTA_App_Flavor.a in Frameworks */,
+				61C29D1D51C596FE8D399010 /* libPods-OTA_App_Flavor.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		043314692F064BBC00FBD2EE /* GoogleService */ = {
+			isa = PBXGroup;
+			children = (
+				0433146E2F064CC100FBD2EE /* stage */,
+				0433146D2F064CB700FBD2EE /* dev */,
+				0433146A2F064BD300FBD2EE /* prod */,
+			);
+			path = GoogleService;
+			sourceTree = "<group>";
+		};
+		0433146A2F064BD300FBD2EE /* prod */ = {
+			isa = PBXGroup;
+			children = (
+				0433146B2F064CB000FBD2EE /* GoogleService-Info.plist */,
+			);
+			path = prod;
+			sourceTree = "<group>";
+		};
+		0433146D2F064CB700FBD2EE /* dev */ = {
+			isa = PBXGroup;
+			children = (
+				0433146F2F064D2200FBD2EE /* GoogleService-Info.plist */,
+			);
+			path = dev;
+			sourceTree = "<group>";
+		};
+		0433146E2F064CC100FBD2EE /* stage */ = {
+			isa = PBXGroup;
+			children = (
+				043314712F064D7C00FBD2EE /* GoogleService-Info.plist */,
+			);
+			path = stage;
+			sourceTree = "<group>";
+		};
 		13B07FAE1A68108700A75B9A /* OTA_App_Flavor */ = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +134,8 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				5DCACB8F33CDC322A6C60F78 /* libPods-OTA_App_Flavor.a */,
+				D6F9DEA2BDB3176CAD2504FA /* libPods-OTA_App_Flavor-Dev.a */,
+				AB872571B9B5C282E73E9F64 /* libPods-OTA_App_Flavor-Stage.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -70,11 +150,14 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				043314692F064BBC00FBD2EE /* GoogleService */,
 				13B07FAE1A68108700A75B9A /* OTA_App_Flavor */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				043314562F062D4000FBD2EE /* OTA_App_Flavor Dev-Info.plist */,
+				043314682F062DD100FBD2EE /* OTA_App_Flavor Stage-Info.plist */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -85,6 +168,8 @@
 			isa = PBXGroup;
 			children = (
 				13B07F961A680F5B00A75B9A /* OTA_App_Flavor.app */,
+				043314552F062D4000FBD2EE /* OTA_App_Flavor-Dev.app */,
+				043314672F062DD100FBD2EE /* OTA_App_Flavor-Stage.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -92,8 +177,12 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-OTA_App_Flavor.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-OTA_App_Flavor.release.xcconfig */,
+				C858928068F1FA7EAEEF83A1 /* Pods-OTA_App_Flavor.debug.xcconfig */,
+				FB6FC3C77371FABE72D40B79 /* Pods-OTA_App_Flavor.release.xcconfig */,
+				1D1C0A3AE1CF0097C01BC18D /* Pods-OTA_App_Flavor-Dev.debug.xcconfig */,
+				6B2EF6F28D0BCB8E65771F36 /* Pods-OTA_App_Flavor-Dev.release.xcconfig */,
+				FF4E1EBE7839B7676947FBC1 /* Pods-OTA_App_Flavor-Stage.debug.xcconfig */,
+				5BD1A07296DAEC16951BA295 /* Pods-OTA_App_Flavor-Stage.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -101,6 +190,48 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		043314452F062D4000FBD2EE /* OTA_App_Flavor-Dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043314522F062D4000FBD2EE /* Build configuration list for PBXNativeTarget "OTA_App_Flavor-Dev" */;
+			buildPhases = (
+				63D14A033DAAE148E3E43EEF /* [CP] Check Pods Manifest.lock */,
+				043314472F062D4000FBD2EE /* Sources */,
+				043314492F062D4000FBD2EE /* Frameworks */,
+				0433144B2F062D4000FBD2EE /* Resources */,
+				0433144F2F062D4000FBD2EE /* Bundle React Native code and images */,
+				2D82D43B9163363E363CE3A4 /* [CP] Embed Pods Frameworks */,
+				ACBF98A35A2F0C5740E510F8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OTA_App_Flavor-Dev";
+			productName = OTA_App_Flavor;
+			productReference = 043314552F062D4000FBD2EE /* OTA_App_Flavor-Dev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		043314572F062DD100FBD2EE /* OTA_App_Flavor-Stage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043314642F062DD100FBD2EE /* Build configuration list for PBXNativeTarget "OTA_App_Flavor-Stage" */;
+			buildPhases = (
+				9591DC8159956E4C8FE18858 /* [CP] Check Pods Manifest.lock */,
+				043314592F062DD100FBD2EE /* Sources */,
+				0433145B2F062DD100FBD2EE /* Frameworks */,
+				0433145D2F062DD100FBD2EE /* Resources */,
+				043314612F062DD100FBD2EE /* Bundle React Native code and images */,
+				B9122FBB5FB98F59B6F0A955 /* [CP] Embed Pods Frameworks */,
+				AE32FA47E2819021FF09029E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OTA_App_Flavor-Stage";
+			productName = OTA_App_Flavor;
+			productReference = 043314672F062DD100FBD2EE /* OTA_App_Flavor-Stage.app */;
+			productType = "com.apple.product-type.application";
+		};
 		13B07F861A680F5B00A75B9A /* OTA_App_Flavor */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "OTA_App_Flavor" */;
@@ -149,16 +280,41 @@
 			projectRoot = "";
 			targets = (
 				13B07F861A680F5B00A75B9A /* OTA_App_Flavor */,
+				043314452F062D4000FBD2EE /* OTA_App_Flavor-Dev */,
+				043314572F062DD100FBD2EE /* OTA_App_Flavor-Stage */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0433144B2F062D4000FBD2EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0433144C2F062D4000FBD2EE /* LaunchScreen.storyboard in Resources */,
+				043314702F064D2200FBD2EE /* GoogleService-Info.plist in Resources */,
+				0433144D2F062D4000FBD2EE /* Images.xcassets in Resources */,
+				0433144E2F062D4000FBD2EE /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0433145D2F062DD100FBD2EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0433145E2F062DD100FBD2EE /* LaunchScreen.storyboard in Resources */,
+				043314722F064D7C00FBD2EE /* GoogleService-Info.plist in Resources */,
+				0433145F2F062DD100FBD2EE /* Images.xcassets in Resources */,
+				043314602F062DD100FBD2EE /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		13B07F8E1A680F5B00A75B9A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				0433146C2F064CB000FBD2EE /* GoogleService-Info.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				0D2C0FFE4D097D5DB8D3D7D2 /* PrivacyInfo.xcprivacy in Resources */,
 			);
@@ -198,6 +354,150 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OTA_App_Flavor/Pods-OTA_App_Flavor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0433144F2F062D4000FBD2EE /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		043314612F062DD100FBD2EE /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		2D82D43B9163363E363CE3A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OTA_App_Flavor-Dev/Pods-OTA_App_Flavor-Dev-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OTA_App_Flavor-Dev/Pods-OTA_App_Flavor-Dev-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OTA_App_Flavor-Dev/Pods-OTA_App_Flavor-Dev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63D14A033DAAE148E3E43EEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OTA_App_Flavor-Dev-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9591DC8159956E4C8FE18858 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OTA_App_Flavor-Stage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACBF98A35A2F0C5740E510F8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OTA_App_Flavor-Dev/Pods-OTA_App_Flavor-Dev-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OTA_App_Flavor-Dev/Pods-OTA_App_Flavor-Dev-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OTA_App_Flavor-Dev/Pods-OTA_App_Flavor-Dev-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE32FA47E2819021FF09029E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OTA_App_Flavor-Stage/Pods-OTA_App_Flavor-Stage-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OTA_App_Flavor-Stage/Pods-OTA_App_Flavor-Stage-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OTA_App_Flavor-Stage/Pods-OTA_App_Flavor-Stage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9122FBB5FB98F59B6F0A955 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OTA_App_Flavor-Stage/Pods-OTA_App_Flavor-Stage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OTA_App_Flavor-Stage/Pods-OTA_App_Flavor-Stage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OTA_App_Flavor-Stage/Pods-OTA_App_Flavor-Stage-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
@@ -242,6 +542,22 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		043314472F062D4000FBD2EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043314482F062D4000FBD2EE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043314592F062DD100FBD2EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0433145A2F062DD100FBD2EE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		13B07F871A680F5B00A75B9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -253,9 +569,117 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		043314532F062D4000FBD2EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D1C0A3AE1CF0097C01BC18D /* Pods-OTA_App_Flavor-Dev.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Dev";
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "OTA_App_Flavor Dev-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		043314542F062D4000FBD2EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B2EF6F28D0BCB8E65771F36 /* Pods-OTA_App_Flavor-Dev.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Dev";
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "OTA_App_Flavor Dev-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OTA-App-Flavor-Dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		043314652F062DD100FBD2EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF4E1EBE7839B7676947FBC1 /* Pods-OTA_App_Flavor-Stage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Stage";
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "OTA_App_Flavor Stage-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		043314662F062DD100FBD2EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BD1A07296DAEC16951BA295 /* Pods-OTA_App_Flavor-Stage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Stage";
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "OTA_App_Flavor Stage-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OTA-App-Flavor.Stage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-OTA_App_Flavor.debug.xcconfig */;
+			baseConfigurationReference = C858928068F1FA7EAEEF83A1 /* Pods-OTA_App_Flavor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -283,7 +707,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-OTA_App_Flavor.release.xcconfig */;
+			baseConfigurationReference = FB6FC3C77371FABE72D40B79 /* Pods-OTA_App_Flavor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -300,7 +724,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OTA-App-Flavor";
 				PRODUCT_NAME = OTA_App_Flavor;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -454,6 +878,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		043314522F062D4000FBD2EE /* Build configuration list for PBXNativeTarget "OTA_App_Flavor-Dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043314532F062D4000FBD2EE /* Debug */,
+				043314542F062D4000FBD2EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043314642F062DD100FBD2EE /* Build configuration list for PBXNativeTarget "OTA_App_Flavor-Stage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043314652F062DD100FBD2EE /* Debug */,
+				043314662F062DD100FBD2EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "OTA_App_Flavor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -14,7 +14,8 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
-target 'OTA_App_Flavor' do
+def target_pods
+
   config = use_native_modules!
 
   use_react_native!(
@@ -22,14 +23,23 @@ target 'OTA_App_Flavor' do
     # An absolute path to your application root.
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
+end
+target 'OTA_App_Flavor' do
+  target_pods
+end
+target 'OTA_App_Flavor-Dev' do
+  target_pods
+end
+target 'OTA_App_Flavor-Stage' do
+  target_pods
+end
 
   post_install do |installer|
     # https://github.com/facebook/react-native/blob/main/packages/react-native/scripts/react_native_pods.rb#L197-L202
     react_native_post_install(
       installer,
-      config[:reactNativePath],
+      '../node_modules/react-native',
       :mac_catalyst_enabled => false,
       # :ccache_enabled => true
     )
   end
-end

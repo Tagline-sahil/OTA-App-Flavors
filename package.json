@@ -11,9 +11,10 @@
     "android:dev": "cd android && ./gradlew installDevDebug"
   },
   "dependencies": {
+    "@react-native/new-app-screen": "0.81.1",
     "react": "19.1.0",
     "react-native": "0.81.1",
-    "@react-native/new-app-screen": "0.81.1",
+    "react-native-config": "^1.6.1",
     "react-native-safe-area-context": "^5.5.2"
   },
   "devDependencies": {
